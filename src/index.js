@@ -34,7 +34,7 @@ async function onSubmit(event) {
     galleryRef.innerHTML = markup;
     if (totalHits > 40) {
       loadRef.classList.remove('js-load-btn');
-      page += 1;
+    //   page += 1;
     }
     lightbox.refresh();
   } catch (error) {
